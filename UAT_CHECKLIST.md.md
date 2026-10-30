@@ -164,71 +164,8 @@ The application underwent comprehensive functional end-to-end verification acros
 
 ---
 
-## 3. Sample Data Export Verification
 
-Execution of test case `TC-WFL-03` verified the schema and completeness of the downloaded data artifact:
-
-```json
-{
-  "project_id": 46,
-  "rail_title": "Creator Distribution Funnel",
-  "source": "GDELT + FastAPI Dynamic ETL",
-  "exported_at": "2026-10-30T21:26:00.000Z",
-  "cohort": "Q3 2026 vs Q4 2026",
-  "content_type": "Short-form Video",
-  "aggregates": {
-    "total_impressions": 12510000,
-    "total_clicks": 565500,
-    "total_watch_time": 659000,
-    "total_conversions": 16800,
-    "total_revenue": 764400,
-    "avg_ctr": 4.52,
-    "avg_conversion_rate": 0.1343
-  },
-  "dataset": [
-    {
-      "platform": "YouTube",
-      "impressions": 3850000,
-      "clicks": 154000,
-      "ctr": 4.0,
-      "watch_time": 295000,
-      "conversions": 5400,
-      "revenue": 245700
-    },
-    {
-      "platform": "TikTok",
-      "impressions": 4620000,
-      "clicks": 231000,
-      "ctr": 5.0,
-      "watch_time": 198000,
-      "conversions": 6930,
-      "revenue": 315315
-    },
-    {
-      "platform": "Instagram",
-      "impressions": 2150000,
-      "clicks": 86000,
-      "ctr": 4.0,
-      "watch_time": 92000,
-      "conversions": 2580,
-      "revenue": 117390
-    },
-    {
-      "platform": "X",
-      "impressions": 1890000,
-      "clicks": 94500,
-      "ctr": 5.0,
-      "watch_time": 74000,
-      "conversions": 1890,
-      "revenue": 85995
-    }
-  ]
-}
-```
-
----
-
-## 4. Final Gate 2 Certification Sign-Off
+## 3. Final Gate 2 Certification Sign-Off
 
 All 38 functional validation checkpoints across filters, tooltips, loading feedback, user interactions, independent scrolling, responsive geometry, mathematical accuracy, error recovery, and data export have been executed and verified.
 
